@@ -15,15 +15,15 @@ const routes = [
     showMenu: true,
   },
   {
-    path: "/sub-vue3",
-    key: 'sub-vue3',
-    title: 'vue3子应用',
-    showMenu: true,
-  },
-  {
     path: "/sub-vue",
     key: 'sub-vue',
     title: 'vue子应用',
+    showMenu: true,
+  },
+  {
+    path: "/sub-vue3",
+    key: 'sub-vue3',
+    title: 'vue3子应用',
     showMenu: true,
   }
 ];

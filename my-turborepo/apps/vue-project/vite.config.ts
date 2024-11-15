@@ -20,9 +20,9 @@ export default defineConfig({
       useDevMode: true
     })
   ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     '@': fileURLToPath(new URL('./src', import.meta.url))
+  //   },
+  // },
 })
